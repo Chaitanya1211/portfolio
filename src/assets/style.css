@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banner {
+    background-image: url('./images/dark-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.borders {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.exp {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #12141D;
+}
+
+.line {
+    height: 1px;
+    width: 70px;
+    background-color: #6244C5;
+    margin: 5px 0px;
+}
+
+.year {
+    color: #6244C5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.company {
+    color: #12141D;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.exp-desc{
+    color: #5A5A5A;
+    font-size: 15px;
+}
+.pad{
+    padding: 125px 0px;
+}
