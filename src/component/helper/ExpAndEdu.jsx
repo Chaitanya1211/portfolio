@@ -27,7 +27,7 @@ export function ExpAndEdu() {
 
                 {/* Full time */}
                 {fulltime && <>
-                    <div style={{ "padding": "35px 0px" }}>
+                    <div className="pt-4">
                         <div class=" mb-4">
                             <div class="exp">Technology graduate Developer </div>
                             <div class="line"></div>
@@ -42,7 +42,7 @@ export function ExpAndEdu() {
 
                 {/* Part time */}
                 {partTime && <>
-                    <div style={{ "padding": "35px 0px" }}>
+                    <div className="pt-4">
                         <div class="mb-4">
                             <div class="exp">Web Development Intern</div>
                             <div class="line"></div>
@@ -52,14 +52,14 @@ export function ExpAndEdu() {
                             </div>
                             <p className="exp-desc">Developed a comprehensive system using the MERN stack that monitors employee attendance with face recognition and tracks project-specific bugs, allowing employees to update bug statuses.</p>
                         </div>
-                        <div class="mb-4">
+                        <div>
                             <div class="exp">Summer Intern</div>
                             <div class="line"></div>
                             <div className="d-flex flex-wrap justify-content-between">
                                 <div class="company col-lg-9">Barclays</div>
                                 <span class="year col-lg-3">Jun 2023 - Aug 2023</span>
                             </div>
-                            <p className="exp-desc">Developed an automation tool using the MERN (MongoDB, Express.js, React, Node.js) stack, designed to streamline and optimize workflow for various internal teams.</p>
+                            <p className="exp-desc m-0">Developed an automation tool using the MERN (MongoDB, Express.js, React, Node.js) stack, designed to streamline and optimize workflow for various internal teams.</p>
                         </div>
                     </div>
                 </>}

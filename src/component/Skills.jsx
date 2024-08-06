@@ -1,4 +1,6 @@
 import { ExpAndEdu } from "./helper/ExpAndEdu";
+import { SectionHeader } from "./helper/SectionHeader";
+import { SectionSubHead } from "./helper/SectionSubHead";
 import { SkillBox } from "./helper/SkillBox";
 
 export function Skills() {
@@ -7,11 +9,10 @@ export function Skills() {
             <section className="pad">
                 <div className="container">
                     <div className="row">
-                        {/* Skills */}
-                        <h1 className="m-0"> <strong>Skills & Experience</strong></h1>
-                        <div className="col-lg-6">
+                        <SectionHeader heading={"Skills & Experience"} />
+                        <SectionSubHead subhead={"With a versatile skill set honed through hands-on experience and continuous learning, I'm equipped to tackle a wide range of challenges in technology and development. My expertise spans various domains, allowing me to craft solutions that are both innovative and effective. Here are some of the key skills that enable me to deliver exceptional results"} />
+                        <div className="col-lg-6 mt-4">
                             <div className="row">
-                                <h5 className="my-4">Equipped with a diverse toolkit to tackle any challenge, here are my key skills</h5>
                                 <div className="col-lg-6">
                                     <SkillBox currSkill={"cpp"} />
                                     <SkillBox currSkill={"php"} />
@@ -26,7 +27,7 @@ export function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mt-4">
                             <ExpAndEdu />
                         </div>
                     </div>

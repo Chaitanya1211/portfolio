@@ -1,4 +1,6 @@
 import { Cover } from "./component/Cover"
+import { Education } from "./component/Education"
+import { Projects } from "./component/Projects"
 import { Skills } from "./component/Skills"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <>
       <Cover />
       <Skills />
+      <Education/>
+      <Projects />
     </>
   )
 }
