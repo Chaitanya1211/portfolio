@@ -1,0 +1,29 @@
+[
+    {
+       "title":"Passwordless Authentication",
+       "description" :"An flutter application which simplifies the process of authentication by using Cryptography",
+       "coverImage" : "src/assets/images/projectImages/password-less-auth.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/flutter.png","src/assets/images/techlogo/nodejs.png","src/assets/images/techlogo/mongo-db.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/paswordlessAuthentication"
+    },
+    {
+       "title":"Blind Navigation using RFID",
+       "description" :"An flutter application which navigates a blind person to the destination in indoor premises using RFID Tags and voice commands",
+       "coverImage" : "src/assets/images/projectImages/blind-nav.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/flutter.png","src/assets/images/techlogo/wifi.png","src/assets/images/techlogo/firebase.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/indoor-navigation-for-blind"
+    },
+    {
+       "title":"SmartKart - A self billing App",
+       "description" :"An flutter application which aloows the user to prepare his/her own bill using application",
+       "coverImage" : "src/assets/images/projectImages/smart-cart.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/flutter.png","src/assets/images/techlogo/firebase.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/smart-kart"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+       "title":"Employee Attendance and Bug Management",
+       "description" :"An website build in MERN Stack with keeps track of employee attendance and bug of project",
+       "coverImage" : "src/assets/images/projectImages/emp-att.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/react.png","src/assets/images/techlogo/nodejs.png","src/assets/images/techlogo/mongo-db.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/employee-attendance"
+    }
+]

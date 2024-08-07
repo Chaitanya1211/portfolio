@@ -1,0 +1,20 @@
+[
+    {
+       "title":"Ecommerce",
+       "description" :"An ecommerce site consisting of Seller dashboard and user interface with end to end inventory management, order status change ",
+       "coverImage" : "src/assets/images/projectImages/ecommerce.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/php.png","src/assets/images/techlogo/mysql.png","src/assets/images/techlogo/javascript.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/php-ecommerce"
+    },
+    {
+       "title":"Keystroke Dynamics",
+       "description" :"A project for unloking a system by analysing the keystroke dynamics of a user",
+       "coverImage" : "src/assets/images/projectImages/keystrokes.jpg",
+       "techStack" : [
+        "src/assets/images/techlogo/python.png"
+       ],
+       "github": "https://github.com/Chaitanya1211/KeyStroke-Dynamics"
+    }
+]

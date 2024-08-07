@@ -78,24 +78,48 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .nav-link{
-    /* background-color: transparent;
-    border: none;
-    border-bottom: 1px solid grey;
-    padding: 5px 25px; */
-    background-color: #f8f9fa; /* Light grey background */
-    color: #343a40; /* Dark grey text */
-    border: 1px solid #dee2e6; /* Border color */
-    transition: background-color 0.3s, color 0.3s;
+
+  .nav-tabs{
+    border: none !important;
   }
-  .nav-link.active{
-    /* background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #6244C5;
-    padding: 5px 25px;
-    color: #6244C5;
-    font-weight: 800; */
-    background-color: #007bff; /* Blue background */
-    color: #fff; /* White text */
-    border: 1px solid #007bff; /* Border color same as background */
+  .nav-item{
+    border: 1px solid #212529BF !important;
+    border-radius: 5px !important;
+    color: #212529BF;
+  }
+
+  .nav-item:hover{
+    background-color: #6244C5;
+    color: white;
+  }
+  .nav-item.active{
+    background-color: #6244C5 !important;
+    color: white !important;
+  }
+  .blog-wrapper{
+    box-shadow: 11px 11px 20px 20px rgba(1, 41, 112, 0.08);
+    transition: 0.5s;
+  }
+  .blog-wrapper:hover{
+    transform: scale(1.05);
+  }
+  .blog-wrapper:hover .githubIcon{
+    visibility: visible;
+    right: 10px;
+  }
+  .project-desc{
+    height: 75px;
+    font-size: small;
+  }
+  .blog-img{
+    position: relative;
+  }
+  .githubIcon{
+    position: absolute;
+    bottom : 10px;
+    right : -50px;
+    background-color: white;
+    border-radius: 5px;
+    transition: right 0.5s ease;
+    visibility: hidden;
   }
